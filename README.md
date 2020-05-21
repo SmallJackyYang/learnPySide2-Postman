@@ -16,3 +16,6 @@ from threading import Thread
 import requests
 import json
 ```
+引入PySide2 QtWidgets界面需要相关东西，这里其实少了很多引入，因为直接使用了QUiLoader，在QT designer里已经设计好界面的排版，文件里也一并上传，可直接使用designer打开查看
+QIcon用于添加主窗口图标，使用的是png格式图标
+多线程Thread 与requests 还有 json库就不额外多说了
