@@ -26,8 +26,10 @@ QIcon用于添加主窗口图标，使用的是png格式图标
 代码里注释都已经写的比较详细，其实功能挺简单的，会python的朋友都能轻松掌握
 
 ## 关于打包
-打包使用 pyinstaller，cmd到当前目录 使用pyinstaller httprequest.py -F --noconsole --hidden-import PySide2.QtXml --icon="logo.ico" 
-
+打包使用 pyinstaller，cmd到当前目录
+```cmd
+pyinstaller httprequest.py -F --noconsole --hidden-import PySide2.QtXml --icon="logo.ico" 
+```
 打包这里有几条注意事项
 
 1.-F ： 打包完成后只有一个单独的EXE文件，个人比较喜欢这种方式
